@@ -10,6 +10,13 @@ const Home = ({navigation})=>{
                 onPress={()=>navigation.navigate("About")}>
             
             </Button>
+            <Text>Drawer Navigation Button Functionality</Text>
+            <Button
+            title="Open Drawer"
+            onPress={()=>navigation.openDrawer()}
+            >
+
+            </Button>
         </View>
     );
 }

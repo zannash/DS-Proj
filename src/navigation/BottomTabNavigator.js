@@ -17,7 +17,7 @@ tabBarOptions = {
         activeTintColor:'blue',
         inactiveTintColor:'grey',
         style:{
-            backgroundColor:"red"
+        //    backgroundColor:"red"
         },
         labelStyle:{
             fonSize:12,
@@ -25,8 +25,8 @@ tabBarOptions = {
     }
 }>
     <Tab.Screen
-    name = "Home"
-    component = {MainStackNavigator}
+    name = "Home view"
+    component = {Home}
     options = {
         {
             tabBarLabel: 'Home',
@@ -36,11 +36,11 @@ tabBarOptions = {
     />
 
     <Tab.Screen
-     name = "About"
-     component = {AboutStackNavigator}
+     name = "About view"
+     component = {About}
      options = {
          {
-             tabBarLabel: 'Zana',
+             tabBarLabel: 'About',
              tabBarIcon:({color}) => (<Icon name="rocket" size={26} color={color}/>),
          }
      }

@@ -1,19 +1,21 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, Image } from 'react-native';
 import Swiper from 'react-native-swiper';
-
+import Icon from '../components/icon';
 const Home = () => {
     return(
         <View style={styles.container}>
+
+            {/*===SLIDER START===*/}
             <View style={styles.sliderContainer}>
                 <Swiper
-                    autoplay
+                    autoplay 
                     activeDotColor="#22D4FF"
                     autoplayTimeout={2}
                 >
                     <View style={styles.item}>
                         <Image 
-                         source={require('../../assets/images/laptop4.png')}
+                         source={require('../../assets/images/laptop.png')}
                            
                             style={styles.imgItem}
                             resizeMode="cover"
@@ -49,6 +51,25 @@ const Home = () => {
                     </View>
                 </Swiper>
             </View>
+
+             {/*===SLIDER END===*/}
+            
+            {/*==== ICONS START====*/}
+            <View style={styles.iconsContainer}>
+                <Icon name="cellphone-iphone" iconText="iPhone"/>
+                <Icon name="android" iconText="Samsung"/>
+                <Icon name="laptop" iconText="Laptop"/>
+
+            </View>
+            <View style={styles.iconsContainer}>
+                <Icon name="tablet" iconText="Tablet"/>
+                <Icon name="mouse" iconText="Mouse"/>
+                <Icon name="keyboard-outline" iconText="Keyboard"/>
+
+            </View>
+             {/*==== ICONS END====*/}
+
+
         </View>
     );
 }
@@ -92,6 +113,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginBottom: 16
     },
+
 
 
 });

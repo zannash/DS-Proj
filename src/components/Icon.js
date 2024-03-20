@@ -3,6 +3,7 @@ import React from 'react';
 import {View,Text,StyleSheet} from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
+
 const Icon = (props) => {
     return(
         <View style={styles.iconContainer}>

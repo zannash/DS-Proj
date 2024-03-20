@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, Image } from 'react-native';
 import Swiper from 'react-native-swiper';
-
+import Icon from '../components/icon';
 const Home = () => {
     return(
         <View style={styles.container}>

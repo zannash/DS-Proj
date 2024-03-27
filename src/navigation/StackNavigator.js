@@ -3,7 +3,7 @@ import {View,Text,StyleSheet,Button} from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../screens/Home';
 import About from '../screens/About';
-
+import Ios  from '../screens/Ios';
 
 //Reprezenton Stack Navigator
 const Stack = createStackNavigator();
@@ -63,4 +63,13 @@ const AboutStackNavigator = ({navigation}) =>{
     )
 }
 
-export { MainStackNavigator, AboutStackNavigator };
+const IosStackNavigator = () => {
+    return(
+        <Stack.Navigator screenOptions={screenOptionStyle}>
+            <Stack.Screen name="iOS" component={Ios} />
+        </Stack.Navigator>
+    );
+}
+
+
+export { MainStackNavigator, AboutStackNavigator,IosStackNavigator };

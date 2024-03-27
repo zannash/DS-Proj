@@ -1,27 +1,77 @@
-[
-    {
-        "id":1,
-        "name":"iPad10",
-        "category":"Tablet",
-        "price":"$800",
-        "image":"https://onoff.ee/1817700-superlarge_default/ipad-air-10-9-wi-fi-cellular-64gb-pink-5th-gen.jpg",
-        "description":"Lorem ipsum dolor sit amet,ut labore et dolore magna aliqua."
-    },
-    {
-        "id":2,
-        "name":"iPhone 15",
-        "category":"iPhone",
-        "price":"$1400",
-        "image":"https://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Black_Titanium_PDP_Image_Position-1__en-IN_ad326452-186a-484a-99a4-82dc80c280fb_823x.jpg?v=1694759404",
-        "description":"Lorem ipsum dolor sit conscectur,ut labore et dolore magna aliqua."
-    },
-    {
-        "id":3,
-        "name":"Samsung S24",
-        "category":"Samsung",
-        "price":"$1190",
-        "image":"data:image/jpeg;base64,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",
-        "description":"Lorem ipsum dolor sit amet,ut labore et dolore magna aliqua."
-    }
+{
+    "popularproducts": [
+        {
+            "id" : 1,
+            "name" : "iPad 8",
+            "category" : "Tablet",
+            "price" : "$880",
+            "image" : "https://images.unsplash.com/photo-1525101238777-8878781fc06d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
+            "description" : "Lorem Ipsum dolor sit amet, ut labore et dolore magna aliqua."
+        },
+        {
+            "id" : 2,
+            "name" : "iPhone X",
+            "category" : "iOS",
+            "price" : "$750",
+            "image" : "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+        },
+        {
+            "id" : 3,
+            "name" : "Samsung S21",
+            "category" : "Android",
+            "price" : "$990",
+            "image" : "https://images.unsplash.com/photo-1610945264803-c22b62d2a7b3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+        }
+        
+    ],
+    "ios": [
+        {
+            "id" : 1,
+            "name" : "iPhone X",
+            "category" : "iOS",
+            "price" : "$750",
+            "image" : "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+        },
+        {
+            "id" : 2,
+            "name" : "iPhone 12",
+            "category" : "iOS",
+            "price" : "$999",
+            "image" : "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+        },
+        {
+            "id" : 3,
+            "name" : "iPhone 12 Pro",
+            "category" : "iOS",
+            "price" : "$999",
+            "image" : "https://images.unsplash.com/photo-1570963904764-fff966562bbd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+        }
 
-] 
+    ],
+
+    "android": [
+        {
+            "id" : 1,
+            "name" : "Xiaomi",
+            "category" : "Android",
+            "price" : "$990",
+            "image" : "https://images.unsplash.com/photo-1575571536958-38aa1227786a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+        },
+        {
+            "id" : 2,
+            "name" : "Samsung S21",
+            "category" : "Android",
+            "price" : "$990",
+            "image" : "https://images.unsplash.com/photo-1610945264803-c22b62d2a7b3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+        }
+    ]
+}
+
+

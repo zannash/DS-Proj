@@ -73,7 +73,9 @@ class Home extends React.Component  {
     
     {/*==== ICONS Section START====*/}
     <View style={styles.iconsContainer}>
-        <Icon name="cellphone-iphone" iconText="iPhone"/>
+    <TouchableOpacity onPress={() => this.props.navigation.navigate('Ios')}>
+                            <Icon name="cellphone-iphone" iconText="iOS"/>
+                            </TouchableOpacity>
         <Icon name="android" iconText="Samsung"/>
         <Icon name="laptop" iconText="Laptop"/>
 
@@ -90,7 +92,7 @@ class Home extends React.Component  {
          <View style={styles.productsContainer}>
             <Text style={styles.title}>Most popular products</Text>
             <FlatList 
-                data={this.state.products}
+                data={this.state.products.popularproducts}
                 renderItem = {({item}) => (
                     <View>
                         <Item item={item} />
